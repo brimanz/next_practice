@@ -1,14 +1,13 @@
-import Navigation from '../components/navigation'
+import Container from '../components/Container'
 
 
-const index = () => {
+const Index = () => {
 	return(
-		<div>
-			<Navigation/>
+		<Container>
 			<h2>Index</h2>
-		</div>
+		</Container>
 	);
 }
 
 
-export default index
+export default Index
