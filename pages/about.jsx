@@ -1,9 +1,11 @@
+import Navigation from '../components/navigation'
 
 
 const About = () => {
 	return(
 		<div>
-			<h2>About</h2>
+			<Navigation/>
+			<h2>about</h2>
 		</div>
 	);
 }
